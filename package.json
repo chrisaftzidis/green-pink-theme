@@ -1,0 +1,25 @@
+{
+    "name": "green-pink-theme",
+    "displayName": "Green Pink Theme",
+    "description": "Theme for VS Code",
+    "publisher": "chris",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "author": {
+        "name": "Chris Aftzidis"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "green-pink-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/green-pink-theme.json"
+            }
+        ]
+    }
+}
